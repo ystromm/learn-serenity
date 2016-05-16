@@ -23,6 +23,7 @@ task wrapper(type: Wrapper) {
 }
 
 dependencies {
+    compile 'org.projectlombok:lombok:1.16.8'
     compile 'net.serenity-bdd:serenity-core:1.1.26'
     compile 'net.serenity-bdd:serenity-junit:1.1.26'
     compile 'net.serenity-bdd:serenity-screenplay:1.1.26'
